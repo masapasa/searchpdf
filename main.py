@@ -3,7 +3,7 @@ from jina import Flow
 from pdf_segmenter import PDFSegmenter
 
 # print-to-pdf of https://courses.cs.vt.edu/csonline/AI/Lessons/VisualProcessing/OCRscans_files/bowers.jpg
-docs = DocumentArray.from_files(["data/*.pdf"],)
+docs = DocumentArray.from_files(["/Users/aswin/Documents/misc/anu/glm-130b.pdf"],)
 
 print(docs.summary())
 
